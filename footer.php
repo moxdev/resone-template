@@ -74,7 +74,8 @@
 
 						<?php
 
-						// Change fill="" color of svg's to match theme colors
+						// Change fill="" color of socisl icon svg's to match theme colors
+						// BLACK AND WHITE VERSIONS OF THE LOGOS, HANDICAP, AND EHO ICONS, COMMENT OUT THE COLOR NOT BEING USED.
 
 						$facebook    = get_field( 'facebook', 'social' );
 						$google_plus = get_field( 'google_plus', 'social' );
@@ -182,9 +183,7 @@
 
 				<div class="eho">
 					<span class="eho-icons">
-						<?php if ( $add_hf == 'Yes' ):
-						// BLACK AND WHITE VERSIONS OF THE HANDICAP AND EHO ICONS, COMMENT OUT THE COLOR NOT BEING USED.
-						?>
+						<?php if ( $add_hf == 'Yes' ): ?>
 
 							<!-- white version -->
 							<!-- <span class="icon-handicap"><svg xmlns="http://www.w3.org/2000/svg" width="25.66" height="29.9" viewBox="0 0 25.66 29.9"><defs><style>.a{fill:#fff;}</style></defs><title>handicap-friendly-icon-white</title><path d="M25.66 25.27c-1.6.5-3.1 1-4.7 1.5-.4-.9-.8-1.8-1.1-2.7-.9-2.1-1.7-4.1-2.6-6.2-.1-.3-.3-.3-.6-.3-3 0-5.9 0-8.9.1-.6 0-.6 0-.7-.6-.2-2.3-.4-4.6-.6-6.8s-.2-3.9-.4-5.8a.76.76 0 0 0-.2-.4A2.86 2.86 0 0 1 6.16 1a2.65 2.65 0 0 1 3-.8 2.9 2.9 0 0 1 1.9 2.5 2.8 2.8 0 0 1-1.8 2.6c-.4.1-.5.3-.4.7C9 7.4 9 8.8 9 10.2c0 .4.2.5.5.5h5.2c.4 0 .5.1.5.5v2H9.66v1.9h8.9a.56.56 0 0 1 .5.3c1.1 2.6 2.1 5.2 3.2 7.9 0 .1.1.2.1.3.7-.2 1.4-.3 2-.5.3-.1.4 0 .5.3.2.5.5 1.2.8 1.9M5.76 10.87c.1 1.1.1 2.2.1 3.2q0 .15-.3.3a10.3 10.3 0 0 0-2.3 3.9 6.6 6.6 0 0 0 1.1 5.3 8 8 0 0 0 9.7 2.4 7.34 7.34 0 0 0 3.6-4.3c0-.1.1-.2.2-.4a7.3 7.3 0 0 0 .3.9c.2.8.5 1.7.7 2.5v.4a11.07 11.07 0 0 1-5.8 4.4c-2.9.8-5 .5-8.1-1.1a10.64 10.64 0 0 1-4.8-6.8 9.6 9.6 0 0 1 2.3-7.9A14.1 14.1 0 0 1 4.16 12c.5-.3 1-.7 1.6-1.1" class="a"/></svg></span> -->

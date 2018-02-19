@@ -9,24 +9,6 @@
 	],
 "creatorBuild": "26261",
 "files": {
-	"\/*notes.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/*notes.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/404.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -63,13 +45,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/DC_Tenant_Bill_of_Rights.pdf",
-		"oF": 0
-		},
-	"\/error_log": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/error_log",
 		"oF": 0
 		},
 	"\/fonts\/Raleway-Bold.eot": {
@@ -404,189 +379,6 @@
 		"oAP": "\/imgs\/ai\/res1-logo.ai",
 		"oF": 0
 		},
-	"\/imgs\/copies\/handi.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/copies\/handi.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/copies\/handicap.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/copies\/handicap.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/copies\/handicapped.gif": {
-		"ft": 4194304,
-		"iS": 378,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/handicapped.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/copies\/handicapped.png": {
-		"ft": 32768,
-		"iS": 1244,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/handicapped.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-ahd-logo copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/copies\/icon-ahd-logo copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/copies\/icon-ahd-logo.png": {
-		"ft": 32768,
-		"iS": 1229,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-ahd-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-eho copy.png": {
-		"ft": 32768,
-		"iS": 521,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-eho copy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-eho copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/copies\/icon-eho copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/copies\/icon-eho.png": {
-		"ft": 32768,
-		"iS": 725,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-eho.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-facebook.png": {
-		"ft": 32768,
-		"iS": 461,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-g-plus.png": {
-		"ft": 32768,
-		"iS": 730,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-g-plus.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-handicap copy.gif": {
-		"ft": 4194304,
-		"iS": 389,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-handicap copy.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/copies\/icon-handicap.gif": {
-		"ft": 4194304,
-		"iS": 389,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-handicap.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/imgs\/copies\/icon-handicap.png": {
-		"ft": 32768,
-		"iS": 455,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-handicap.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-phone copy.png": {
-		"ft": 32768,
-		"iS": 677,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-phone copy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/imgs\/copies\/icon-phone copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/copies\/icon-phone copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/copies\/icon-res1-logo copy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/imgs\/copies\/icon-res1-logo copy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/imgs\/copies\/icon-res1-logo.png": {
-		"ft": 32768,
-		"iS": 1331,
-		"oA": 0,
-		"oAP": "\/imgs\/copies\/icon-res1-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/imgs\/icon-ahd-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -865,26 +657,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/dnu\/map-directions.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/map-directions-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/dnu\/old-directions-map.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/directions-map-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/js\/home-carousel.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1073,16 +845,6 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
-	"\/old-style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/old-style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/page-community.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1116,13 +878,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page.php",
-		"oF": 0
-		},
-	"\/phpcs.xml.dist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/phpcs.xml.dist",
 		"oF": 0
 		},
 	"\/plugins\/mm4-you-contact-form\/inc\/contact.php": {
