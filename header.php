@@ -20,29 +20,21 @@
 	<?php wp_head(); ?>
 
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-NQ8HVJV');</script>
-	<!-- End Google Tag Manager -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-PVFJQSN');</script> -->
+ <!-- End Google Tag Manager -->
 
-	  ga('create', 'UA-32869558-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
 </head>
 
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQ8HVJV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVFJQSN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
+
 <div id="page" class="site"><!-- start-page -->
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'resone_template' ); ?></a>
 
@@ -95,7 +87,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							$app_download_file      = get_field( 'download_application_upload', 'header' );
 							$app_download_link_text = get_field( 'download_application_display_name', 'header' ); ?>
 
-							<a class="download-file-link" href="<?php echo esc_url( $app_download_file ); ?>" target="_blank"><span class="icon-download"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><title>icon-download</title><path fill="#d0a449" d="M17.14 12.82H5.76a.53.53 0 1 0 0 1.06h11.38a.52.52 0 1 0 0-1m0-4.16H5.76a.52.52 0 1 0 0 1h11.38a.52.52 0 0 0 .47-.57.53.53 0 0 0-.46-.45m4.6 19.06a.57.57 0 0 1-.6.56h-10.6l-.94.3a2 2 0 0 1-.6.08 1.86 1.86 0 0 1-1.14-.38H2.4a.58.58 0 0 1-.63-.53V4.15a.57.57 0 0 1 .6-.56h2.16v.9a.58.58 0 0 0 1.17 0v-.9H9v.9a.58.58 0 0 0 1.17 0v-.9h2.9v.9a.58.58 0 0 0 1.18 0v-.9h3.22v.9a.58.58 0 0 0 1.17 0v-.9h2.47a.57.57 0 0 1 .6.57v3.9l1.74-1.7v-2.2A2.3 2.3 0 0 0 21.1 1.9h-2.43V.57a.58.58 0 0 0-1.17 0V1.9h-3.22V.57a.58.58 0 0 0-1.17 0V1.9h-2.9V.57a.58.58 0 0 0-1.16 0V1.9H5.7V.57a.58.58 0 0 0-1.18 0V1.9h-2.2A2.3 2.3 0 0 0 0 4.17v23.6A2.3 2.3 0 0 0 2.33 30h18.82a2.3 2.3 0 0 0 2.33-2.25V19.6l-1.74 1.68zm.52-16.52a.45.45 0 0 0-.62 0l-9 8.7a.4.4 0 0 0 .07.6.45.45 0 0 0 .56 0l9-8.65a.4.4 0 0 0 0-.6m-8 13.55l-3-2.87-.8 2.42 1.27 1.22zm8.2-15.43l4.84 4.67-11.53 11.1a.92.92 0 0 1-.4.25h-.08l-6 1.85a.42.42 0 0 1-.55-.2.38.38 0 0 1 0-.32l1.9-5.78v-.07a.87.87 0 0 1 .25-.4l2.17-2.08h-7.3a.52.52 0 1 1 0-1h8.4zm7.4 2.2L28.1 13.3l-4.83-4.66L25 7a1.35 1.35 0 0 1 1.84-.15l3.15 3"/></svg></span><?php echo esc_html( $app_download_link_text ); ?></a>
+							<a class="download-file-link" href="<?php echo esc_url( $app_download_file ); ?>" target="_blank"><span class="icon-download"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><title>icon-download</title><path fill="#3d1264" d="M17.14 12.82H5.76a.53.53 0 1 0 0 1.06h11.38a.52.52 0 1 0 0-1m0-4.16H5.76a.52.52 0 1 0 0 1h11.38a.52.52 0 0 0 .47-.57.53.53 0 0 0-.46-.45m4.6 19.06a.57.57 0 0 1-.6.56h-10.6l-.94.3a2 2 0 0 1-.6.08 1.86 1.86 0 0 1-1.14-.38H2.4a.58.58 0 0 1-.63-.53V4.15a.57.57 0 0 1 .6-.56h2.16v.9a.58.58 0 0 0 1.17 0v-.9H9v.9a.58.58 0 0 0 1.17 0v-.9h2.9v.9a.58.58 0 0 0 1.18 0v-.9h3.22v.9a.58.58 0 0 0 1.17 0v-.9h2.47a.57.57 0 0 1 .6.57v3.9l1.74-1.7v-2.2A2.3 2.3 0 0 0 21.1 1.9h-2.43V.57a.58.58 0 0 0-1.17 0V1.9h-3.22V.57a.58.58 0 0 0-1.17 0V1.9h-2.9V.57a.58.58 0 0 0-1.16 0V1.9H5.7V.57a.58.58 0 0 0-1.18 0V1.9h-2.2A2.3 2.3 0 0 0 0 4.17v23.6A2.3 2.3 0 0 0 2.33 30h18.82a2.3 2.3 0 0 0 2.33-2.25V19.6l-1.74 1.68zm.52-16.52a.45.45 0 0 0-.62 0l-9 8.7a.4.4 0 0 0 .07.6.45.45 0 0 0 .56 0l9-8.65a.4.4 0 0 0 0-.6m-8 13.55l-3-2.87-.8 2.42 1.27 1.22zm8.2-15.43l4.84 4.67-11.53 11.1a.92.92 0 0 1-.4.25h-.08l-6 1.85a.42.42 0 0 1-.55-.2.38.38 0 0 1 0-.32l1.9-5.78v-.07a.87.87 0 0 1 .25-.4l2.17-2.08h-7.3a.52.52 0 1 1 0-1h8.4zm7.4 2.2L28.1 13.3l-4.83-4.66L25 7a1.35 1.35 0 0 1 1.84-.15l3.15 3"/></svg></span><?php echo esc_html( $app_download_link_text ); ?></a>
 
 						<?php endif ?>
 
@@ -104,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							$ph           = get_field( 'phone', 'company-information' );
 							$callout_text = get_field( 'phone_callout_text', 'header' ); ?>
 
-							<a class="tel-link" href="tel:<?php echo esc_html( $ph ) ?>"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><title>icon-phone</title><path fill="#d0a449" d="M28.3 2.3a.5.5 0 0 0-.7.7 4.8 4.8 0 0 1 0 6.77.5.5 0 0 0 .7.73 5.8 5.8 0 0 0 0-8.17m-2.1 1.1a.5.5 0 0 0-.7.7 3.28 3.28 0 0 1 0 4.65.5.5 0 0 0 .68.73 4.3 4.3 0 0 0 0-6.04M2.4 3a.5.5 0 1 0-.7-.7 5.8 5.8 0 0 0 0 8.2.5.5 0 0 0 .7-.73A4.8 4.8 0 0 1 2.4 3m2.12.3a.5.5 0 0 0-.7 0 4.3 4.3 0 0 0 0 6 .5.5 0 0 0 .72-.7A3.3 3.3 0 0 1 4.5 4a.5.5 0 0 0 0-.7M16 26.5a1 1 0 1 1-1-1 1 1 0 0 1 1 1m6.5-3.5h-15V4h15zM15 28.5a2 2 0 1 1 2-2 2 2 0 0 1-2 2m-2-27h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1m3.5 0h.5a.5.5 0 0 1 0 1h-.5a.5.5 0 0 1 0-1M21.3 0H8.7a2.2 2.2 0 0 0-2.2 2.2v25.6A2.2 2.2 0 0 0 8.7 30h12.6a2.2 2.2 0 0 0 2.2-2.2V2.2A2.2 2.2 0 0 0 21.3 0"/></svg><span class="call"><?php echo esc_html( $callout_text ); ?></span><span class="tel"><?php echo esc_html( $ph ); ?></span></a>
+							<a class="tel-link" href="tel:<?php echo esc_html( $ph ) ?>"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><title>icon-phone</title><path fill="#3d1264" d="M28.3 2.3a.5.5 0 0 0-.7.7 4.8 4.8 0 0 1 0 6.77.5.5 0 0 0 .7.73 5.8 5.8 0 0 0 0-8.17m-2.1 1.1a.5.5 0 0 0-.7.7 3.28 3.28 0 0 1 0 4.65.5.5 0 0 0 .68.73 4.3 4.3 0 0 0 0-6.04M2.4 3a.5.5 0 1 0-.7-.7 5.8 5.8 0 0 0 0 8.2.5.5 0 0 0 .7-.73A4.8 4.8 0 0 1 2.4 3m2.12.3a.5.5 0 0 0-.7 0 4.3 4.3 0 0 0 0 6 .5.5 0 0 0 .72-.7A3.3 3.3 0 0 1 4.5 4a.5.5 0 0 0 0-.7M16 26.5a1 1 0 1 1-1-1 1 1 0 0 1 1 1m6.5-3.5h-15V4h15zM15 28.5a2 2 0 1 1 2-2 2 2 0 0 1-2 2m-2-27h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1m3.5 0h.5a.5.5 0 0 1 0 1h-.5a.5.5 0 0 1 0-1M21.3 0H8.7a2.2 2.2 0 0 0-2.2 2.2v25.6A2.2 2.2 0 0 0 8.7 30h12.6a2.2 2.2 0 0 0 2.2-2.2V2.2A2.2 2.2 0 0 0 21.3 0"/></svg><span class="call"><?php echo esc_html( $callout_text ); ?></span><span class="tel"><?php echo esc_html( $ph ); ?></span></a>
 
 						<?php endif ?>
 

@@ -1,5 +1,6 @@
 .site-footer {
   background-color: $color__background-footer;
+  color: $color__footer;
   @include padding-left-right;
   @include section-padding;
 
@@ -35,10 +36,16 @@
   }
 
   .translate {
-    // padding: 10px;
     max-width: 200px;
     margin: 0 auto 2em auto;
     background-color: transparent;
+
+    .goog-te-gadget {
+      color: $color__google-translate;
+    }
+    .goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+      color: $color__google-translate;
+    }
   }
 
   .property-management-logos {

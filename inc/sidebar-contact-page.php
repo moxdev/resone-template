@@ -8,23 +8,23 @@
 function resone_template_contact_page_sidebar() {
   if(is_page_template( 'page-contact.php' ) && function_exists( 'acf_add_options_page' ) ) {
     if ( function_exists( 'get_field' ) ) {
-      $add    = get_field('address', option);
-      $city   = get_field('city', option);
-      $state  = get_field('state', option);
-      $zip    = get_field('zip', option);
-      $ph     = get_field('phone', option);
-      $fx     = get_field('fax', option);
-      $email  = get_field('email', option);
-      $hours  = get_field('office_hours', option);
+      $add    = get_field('address', 'company-information');
+      $city   = get_field('city', 'company-information');
+      $state  = get_field('state', 'company-information');
+      $zip    = get_field('zip', 'company-information');
+      $ph     = get_field('phone', 'company-information');
+      $fx     = get_field('fax', 'company-information');
+      $email  = get_field('email', 'company-information');
+      $hours  = get_field('office_hours', 'company-information');
 
       if ($hours) {
 
-        if( have_rows('office_hours', option) ): ?>
+        if( have_rows('office_hours', 'company-information') ): ?>
 
             <div class="office-hours">
               <h2>Office Hours</h2>
 
-            <?php while( have_rows('office_hours', option) ): the_row();
+            <?php while( have_rows('office_hours', 'company-information') ): the_row();
 
                 $days = get_sub_field('days');
                 $hours = get_sub_field('hours');
@@ -104,8 +104,8 @@ function resone_template_contact_page_sidebar() {
 
 function resone_template_directions_map() {
   if( function_exists( 'get_field' ) ) {
-    $lat = get_field('latitude', option);
-    $lng = get_field('longitude', option);
+    $lat = get_field('latitude', 'company-information');
+    $lng = get_field('longitude', 'company-information');
 
     if($lat && $lng) { ?>
       <div id="map-canvas"></div>

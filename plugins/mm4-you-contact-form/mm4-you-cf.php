@@ -121,7 +121,7 @@ function mm4_you_add_quick_contact_form() {
 	if( function_exists('get_field') ) {
 		$add_form = get_field('quick_contact_form');
 
-		if ( $add_form == 'Yes' && is_page_template( 'frontpage.php' ) ) {
+		if ( $add_form == 'Yes' && is_front_page() ) {
 			wp_enqueue_script( 'mm4-recaptcha', '//www.google.com/recaptcha/api.js', array(), NULL, TRUE );
 			wp_enqueue_script('mm4-you-validate', get_template_directory_uri() . '/plugins/mm4-you-contact-form/js/min/mm4-you-quick-contact-validate-min.js', array('mm4-recaptcha'), NULL, TRUE );
 			mm4_you_quick_contact_form();
@@ -165,7 +165,7 @@ function mm4_you_quick_contact_form() {
 			</div>
 			<div class="g-recaptcha" data-sitekey="<?php echo $public_key; ?>"></div>
 			<div class="msg-box"></div>
-			<div class="quick-form-button-wrapper"><input class="form-button" type="submit" value="Submit Request"><span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"><defs><clipPath id="b"><path fill="none" d="M0 0h27v27H0z"/></clipPath></defs><title>submit-arrow</title><g><g fill="#d0a449" clip-path="url(#a)"><path d="M25.2 13.5A11.7 11.7 0 1 1 13.5 1.8a11.7 11.7 0 0 1 11.7 11.7M0 13.5A13.5 13.5 0 1 0 13.5 0 13.5 13.5 0 0 0 0 13.5M10.54 8.33l5.23 5.23-5.23 5.23a.9.9 0 1 0 1.28 1.27l5.87-5.86a.9.9 0 0 0 .25-.63.9.9 0 0 0-.26-.64L11.8 7.06a.9.9 0 0 0-1.28 1.28"/></g></g></svg></span></div>
+			<input class="form-button" type="submit" value="Submit Request">
 		</form>
 	</div>
 <?php }

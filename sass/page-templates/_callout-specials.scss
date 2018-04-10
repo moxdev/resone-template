@@ -11,7 +11,7 @@
   }
 
   span {
-    display: inline-block;
+    display: block;
     color: $color__specials-callout;
   }
 
@@ -26,6 +26,11 @@
     padding-top: .5em;
   }
 
+  .callout-disclaimer {
+    font-size: .7em;
+    font-family: $font__light;
+  }
+
   @include respond-to('750') {
     .callout-special {
       font-size: 2em;
@@ -35,8 +40,8 @@
   @include respond-to('1150') {
     text-align: left;
 
-    .callout-details {
-      padding-left: .5em;
+    .callout-disclaimer {
+      font-size: .8em;
     }
   }
 }

@@ -5,7 +5,7 @@ var directionsForm = 'get-directions';
 var mapResponses = 'response-panel';
 
 // Google Maps API Key
-var apiKey = 'AIzaSyDqcS80RSqBcZepAEhhxKHkSzYLZeNI0Ho';
+var apiKey = 'AIzaSyBpwtfsA0q_g1h_9RYILooKiWzqZWZC0gQ';
 
 // Path to JSON Data with Latitude and Longitude
 var apiPath = '/wp-json/acf/v3/options/company-information/';

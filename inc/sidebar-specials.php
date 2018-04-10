@@ -7,9 +7,10 @@
 
 function resone_template_specials_sidebar() {
   if ( function_exists( 'get_field' ) ) {
-    $header  = get_field( 'specials_header', 'specials' );
-    $content = get_field( 'specials_content', 'specials' );
-    $details = get_field( 'specials_details', 'specials' );
+    $header     = get_field( 'specials_header', 'specials' );
+    $content    = get_field( 'specials_content', 'specials' );
+    $details    = get_field( 'specials_details', 'specials' );
+    $disclaimer = get_field( 'specials_disclaimer', 'specials' );
 
     if( $header ): ?>
 
@@ -28,6 +29,10 @@ function resone_template_specials_sidebar() {
       <?php if ( $details ):
         echo $details;
       endif ?>
+
+      <?php if ( $disclaimer ): ?>
+        <p class="disclaimer"><?php echo esc_html( $disclaimer ); ?></p>
+      <?php endif ?>
 
     </div>
 

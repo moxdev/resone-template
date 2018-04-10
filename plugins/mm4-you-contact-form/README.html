@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="wordpresssimplecontactformpluginwithgooglerecaptchaintegration">WordPress Simple Contact Form Plugin With Google ReCAPTCHA Integration</h1>
+
+<p>Version: 3.0</p>
+
+<p>Follow the steps below to include/deploy this plugin with your WordPress theme:</p>
+
+<ol>
+<li>Add all files to a directory in your theme using the following structure: /plugins/mm4-you-contact-form/</li>
+<li>Include the mm4-you-cf.php file in your themes functions.php file (EX: include_once( get_stylesheet_directory() . &#8216;/plugins/mm4-you-contact-form/mm4-you-cf.php&#8217; );)</li>
+</ol>
+
+<h2 id="pluginoptions">Plugin Options</h2>
+
+<p>Once you have successfully included the plugin in your theme, you should see a menu item on your dashboard called &#8220;Contact Forms.&#8221; Click on this to configure the following options:</p>
+
+<ol>
+<li>Email address(es) the form should submit to</li>
+<li>Subject line of the email that is sent with the form</li>
+<li>Page ID number of the &#8220;Thank You&#8221; page</li>
+<li>Fields to enter your public and private ReCAPTCHA API keys. These keys can be obtained at <a href="https://www.google.com/recaptcha/admin">here</a></li>
+</ol>
+
+<h2 id="outputtingtheforminyourtemplatefiles">Outputting the Form in Your Template Files</h2>
+
+<p>You can use the following code to output the contact form into your page/post template files:</p>
+
+<p>~~~~
+&lt;?php
+if(function_exists( &#8216;mm4_you_contact_form&#8217; )): mm4_you_contact_form(); endif;
+?&gt;
+~~~~</p>
+
+<h2 id="additionalnotes">Additional Notes</h2>
+
+<p>This form will output a simple contact form with Name, Email, Phone, and Comments fields. If additional fields are needed, you will need to edit the &#8220;mm4_you_contact_form&#8221; function in the <a href="https://github.com/cstielper/mm4-you-wp-contact-form-with-recaptcha/blob/master/mm4-you-cf.php">mm4-you-cf.php</a> file to include your additional fields as well as the <a href="https://github.com/cstielper/mm4-you-wp-contact-form-with-recaptcha/blob/master/inc/contact.php">contact.php</a> file to include your new fields in the email that is sent. This form uses the <a href="https://github.com/cstielper/mm4-you-js-form-validator">MM4 You Javascript Form Validator</a>. Please see its documentation to properly format your HTML for use with Javascript validation. </p>
+
+</body>
+</html>
+
